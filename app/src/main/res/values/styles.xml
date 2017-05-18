@@ -9,21 +9,30 @@
     </style>
 
     <style name="number_buttons">
-        <item name="android:textSize">50sp</item>
+        <item name="android:textSize">40sp</item>
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:background">@color/colorDarkGray</item>
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
     </style>
 
     <style name="functional_buttons">
         <item name="android:textColor">@color/colorWhite</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:background">@color/colorGray</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="func2_buttons">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:background">@color/colorSpringGreen</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
     </style>
 
 </resources>
